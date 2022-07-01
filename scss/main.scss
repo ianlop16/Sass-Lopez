@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+@import  './variables/extend';
+@import  './variables/mixins';
+
 .grilla {
     display: grid;
     grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
@@ -86,14 +89,11 @@
     }
   
     p {
-      max-width: 550px;
-      text-align: center;
-      margin: 1rem;
+      @extend %estiloParrafo;
     }
   
     button {
-      padding: 0.5rem;
-      margin: 1rem;
+      @include btn-masInformacion(rgb(0, 189, 241),black);
     }
   }
   

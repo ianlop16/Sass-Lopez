@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0; }
 
+.primeraSeccion p {
+  max-width: 550px;
+  text-align: center;
+  margin: 1rem; }
+
 .grilla {
   display: grid;
   grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
@@ -64,13 +69,11 @@
   align-items: center; }
   .primeraSeccion h2 {
     font-size: 2rem; }
-  .primeraSeccion p {
-    max-width: 550px;
-    text-align: center;
-    margin: 1rem; }
   .primeraSeccion button {
     padding: 0.5rem;
-    margin: 1rem; }
+    margin: 1rem;
+    background-color: #00bdf1;
+    color: black; }
 
 .segundaSeccion {
   grid-area: segundaSeccion;
