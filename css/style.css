@@ -105,9 +105,209 @@
     .footer i:hover {
       color: white; }
 
+.grillaP {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
+  grid-template-areas: "nav header header header" "nav primeraSeccionP primeraSeccionP aside" "nav segundaSeccionP segundaSeccionP aside" "nav terceraSeccionP terceraSeccionP aside" "footer footer footer footer";
+  background-color: #313c82;
+  color: white; }
+
+.primeraSeccionP {
+  grid-area: primeraSeccionP;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem; }
+  .primeraSeccionP h3 {
+    font-size: 1.5rem;
+    text-align: center; }
+  .primeraSeccionP div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem; }
+  .primeraSeccionP img {
+    max-width: 350px; }
+  .primeraSeccionP p {
+    max-width: 350px;
+    text-align: center; }
+
+.segundaSeccionP {
+  grid-area: segundaSeccionP;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem; }
+  .segundaSeccionP h3 {
+    font-size: 1.5rem;
+    text-align: center; }
+  .segundaSeccionP div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem; }
+  .segundaSeccionP img {
+    max-width: 350px; }
+  .segundaSeccionP p {
+    max-width: 350px;
+    text-align: center; }
+
+.terceraSeccionP {
+  grid-area: terceraSeccionP;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem; }
+  .terceraSeccionP h3 {
+    font-size: 1.5rem;
+    text-align: center; }
+  .terceraSeccionP div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem; }
+  .terceraSeccionP img {
+    max-width: 350px; }
+  .terceraSeccionP p {
+    max-width: 350px;
+    text-align: center; }
+
+.grillaS {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
+  grid-template-areas: "nav header header header" "nav primeraSeccionS primeraSeccionS aside" "nav primeraSeccionS primeraSeccionS aside" "nav primeraSeccionS primeraSeccionS aside" "footer footer footer footer";
+  background-color: #313c82;
+  color: white; }
+
+.primeraSeccionS {
+  grid-area: primeraSeccionS;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 253px; }
+  .primeraSeccionS h3 {
+    font-size: 1.5rem;
+    text-align: center; }
+  .primeraSeccionS div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem; }
+  .primeraSeccionS img {
+    max-width: 350px; }
+  .primeraSeccionS p {
+    max-width: 350px;
+    text-align: center; }
+
+.img {
+  width: 99.9vw; }
+
+.block-parrafo {
+  height: 45px;
+  background-color: #CDEDFD;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.footer {
+  background-color: #BDC2BF;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; }
+  .footer li {
+    list-style: none;
+    border: black solid 3px;
+    padding: 10px;
+    background-color: lightblue;
+    margin-inline: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+.mainP {
+  background-color: #CDEDFD;
+  display: inline-block;
+  padding-top: 20px;
+  width: 44%;
+  padding-left: 28%;
+  padding-right: 28%;
+  font-size: 25px; }
+  .mainP div {
+    font-family: 'Times New Roman', Times, serif; }
+
+.imgP {
+  display: inline-block;
+  padding-top: 20px;
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%; }
+
+.grillaQ {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
+  grid-template-areas: "nav header header header" "nav primeraSeccionQ primeraSeccionQ aside" "nav segundaSeccionQ segundaSeccionQ aside" "nav terceraSeccionQ terceraSeccionQ aside" "footer footer footer footer";
+  background-color: #313c82;
+  color: white; }
+
+.primeraSeccionQ {
+  grid-area: primeraSeccionQ;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem; }
+  .primeraSeccionQ h3 {
+    font-size: 1.5rem;
+    text-align: center; }
+  .primeraSeccionQ div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem; }
+  .primeraSeccionQ img {
+    max-width: 350px; }
+  .primeraSeccionQ p {
+    max-width: 350px;
+    text-align: center; }
+
+.segundaSeccionQ {
+  grid-area: segundaSeccionQ;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem; }
+  .segundaSeccionQ h3 {
+    font-size: 1.5rem;
+    text-align: center; }
+  .segundaSeccionQ div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem; }
+  .segundaSeccionQ img {
+    max-width: 350px; }
+  .segundaSeccionQ p {
+    max-width: 350px;
+    text-align: center; }
+
+.terceraSeccionQ {
+  grid-area: terceraSeccionQ;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem; }
+  .terceraSeccionQ h3 {
+    font-size: 1.5rem;
+    text-align: center; }
+  .terceraSeccionQ div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem; }
+  .terceraSeccionQ img {
+    max-width: 350px; }
+  .terceraSeccionQ p {
+    max-width: 350px;
+    text-align: center; }
+
+.mainC {
+  background-color: #2c9fd8;
+  margin: 2rem;
+  border: double 2px black; }
+
 @media (max-width: 768px) {
   .grilla {
-    grid-template-areas: "nav nav nav nav" "header header header header" "primeraSeccion primeraSeccion primeraSeccion aside" "segundaSeccion segundaSeccion segundaSeccion aside" "footer footer footer footer"; }
+    grid-template-areas: "nav nav nav nav" "header header header header"  "primeraSeccion primeraSeccion primeraSeccion aside"  "segundaSeccion segundaSeccion segundaSeccion aside"  "footer footer footer footer"; }
+  .grillaQ {
+    grid-template-areas: "nav nav nav nav" "header header header header"  "primeraSeccionQ primeraSeccionQ primeraSeccionQ aside"  "segundaSeccionQ segundaSeccionQ segundaSeccionQ aside" "terceraSeccionQ terceraSeccionQ terceraSeccionQ aside"  "footer footer footer footer"; }
+  .grillaP {
+    grid-template-areas: "nav nav nav nav" "header header header header"  "primeraSeccionP primeraSeccionP primeraSeccionP aside"  "segundaSeccionP segundaSeccionP segundaSeccionP aside" "terceraSeccionP terceraSeccionP terceraSeccionP aside"  "footer footer footer footer"; }
+  .grillaS {
+    grid-template-areas: "nav nav nav nav" "header header header header"  "primeraSeccionS primeraSeccionS primeraSeccionS aside"  "primeraSeccionS primeraSeccionS primeraSeccionS aside" "footer footer footer footer"; }
   .nav {
     flex-direction: row; }
     .nav ul {
