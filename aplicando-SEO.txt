@@ -1,7 +1,15 @@
+Cambio 1:
+
 Agregue etiqueta tittle:
-
 aun no tengo nombre de la marca, por ahora uso la etiqueta Seguridad
+Index: INICIO | Seguridad
+Quienes somos: QUIENES SOMOS | Seguridad
+Servicios: SERVICIOS | Seguridad
+Productos: PRODUCTOS | Seguridad
+Contacto: CONTACTO | Seguridad
 
-Agregue las keywords
+ Cambio 2:
+Agregue las keywords en todas las secciones.
 
-Agregue una descripcion
+Cambio 3:
+Agregue una descripcion en todas las secciones.
